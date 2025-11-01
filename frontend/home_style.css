@@ -1,0 +1,115 @@
+/* Home content */
+
+#home {
+    position: absolute;
+    top: 20vh;
+    width: 100vw;
+    height: 76vh;
+    overflow-y: auto;
+}
+
+#banner {
+    position: absolute;
+    top: 2vh;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+}
+
+#banner_img {
+    border-radius: 20px;
+}
+
+#home_note {
+    position: absolute;
+    top: 55vh;
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#categorie_box {
+    position: absolute;
+    top: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 40vh;
+}
+
+.categorie_flowers {
+    width: 20vw;
+    height: 40vh;
+}
+
+.categorie_flowers_img {
+    border-radius: 10px 10px 0 0;
+    width: 20vw;
+    height: 35vh;
+    transition: .2s ease;
+}
+
+.categorie_flowers_img:hover {
+    border-radius: 50%;
+    transition: .2s ease;
+}
+
+.categorie_flowers>p {
+    text-decoration: none;
+    text-align: center;
+    padding-top: 4%;
+}
+
+#Subscribe {
+    position: absolute;
+    top: 114vh;
+    width: 100vw;
+    height: 40vh;
+    background-color: #E8EFED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Subscribe_content {
+    width: 50vw;
+    height: 30vh;
+}
+
+#Subscribe_content>h2 {
+    text-align: center;
+    padding: 2%;
+}
+
+#Subscribe_content>p {
+    text-align: center;
+    padding: 2%;
+}
+
+#Subscribe_input {
+    margin-top: 2%;
+    width: 80%;
+    padding: 2%;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid black;
+}
+
+#Subscribe_btn {
+    padding: 2%;
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: #678c37;
+    border-radius: 0 10px 10px 0;
+}
+
+#Subscribe_btn:hover {
+    cursor: pointer;
+    background-color: #6b8647;
+    box-shadow: 2px 1px 10px #6b8647;
+}
