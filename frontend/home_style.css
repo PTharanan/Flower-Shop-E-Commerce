@@ -32,9 +32,15 @@
     align-items: center;
 }
 
-#categorie_box {
+#categorie_box_tit {
     position: absolute;
     top: 70vh;
+    padding: 1%;
+}
+
+#categorie_box {
+    position: absolute;
+    top: 77vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -67,7 +73,7 @@
 
 #Subscribe {
     position: absolute;
-    top: 114vh;
+    top: 121vh;
     width: 100vw;
     height: 40vh;
     background-color: #E8EFED;
