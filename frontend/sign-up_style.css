@@ -1,0 +1,26 @@
+/* sign-up */
+
+#sign-up_page {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 1% 0 1%;
+}
+
+#sign-up {
+    width: 27vw;
+    height: 100vh;
+    padding: 1%;
+    overflow-y: auto;
+}
+
+#firstName,
+#lastName,
+#Mobile,
+#reTypePassword {
+    width: 80%;
+    padding: 3%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: large;
+}
