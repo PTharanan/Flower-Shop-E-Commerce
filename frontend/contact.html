@@ -7,7 +7,7 @@
     <title>| Flower Shop</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="home_style.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 
 <body>
@@ -40,9 +40,6 @@
         </div>
 
         <div id="nav_bottom">
-            <div id="categories">
-                <button id="categories_btn" >Categories</button>
-            </div>
             <div id="nav_content">
                 <ul id="content_block">
                     <li class="content">
@@ -61,6 +58,31 @@
             </div>
         </div>
     </nav>
+    <div id="cont">
+        <div class="top"></div>
+        <div class="contact-wrapper">
+            <h2>Contact Us</h2>
+            <p class="contact-intro">
+                Have questions or want to place an order? <br> Reach out to us using the form below, or call us directly!
+            </p>
+            <form class="contact-form" action="contact-form.php" method="post">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="fullname" placeholder="Your full name" required />
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+94 7X XXX XXXX" />
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+
+                <button type="submit">Submit Contact</button>
+            </form>
+        </div>
+    </div>
+
     <footer>
         <p>© 2025 Flower Shop (Pvt) Ltd. All rights reserved.</p>
     </footer>

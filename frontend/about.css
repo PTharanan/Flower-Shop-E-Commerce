@@ -1,0 +1,60 @@
+#about {
+    position: absolute;
+    top: 20vh;
+    width: 100vw;
+    height: 76vh;
+    overflow-y: auto;
+}
+
+#abotit {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#con_da {
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+#media_video {
+    height: 80vh;
+    width: 100vw;
+}
+
+#media_audio {
+    position: fixed;
+    bottom: 10vh;
+    right: 2vw;
+    width: 10vw;
+}
+
+
+/* Hide everything except volume icon */
+#media_audio::-webkit-media-controls-panel {
+    background-color: rgb(200, 248, 164);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Hide play button */
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-timeline,
+audio::-webkit-media-controls-volume-slider,
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-download-button,
+audio::-webkit-media-controls-overflow-button {
+    display: none !important;
+}

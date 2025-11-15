@@ -88,6 +88,7 @@ nav {
     height: 5vh;
     width: 100vw;
     background-color: #a1be7a;
+    justify-content: space-around;
 }
 
 #categories {
